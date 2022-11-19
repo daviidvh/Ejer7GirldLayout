@@ -10,8 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:columnCount="4"
-        app:layout_constraintHorizontal_weight="1"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_weight="1">
 
         <Button
             android:id="@+id/button"
@@ -19,10 +19,9 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="7"
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul"/>
 
         <Button
             android:id="@+id/button2"
@@ -32,10 +31,9 @@
             android:layout_rowWeight="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="8"
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul"/>
 
         <Button
             android:id="@+id/button3"
@@ -43,10 +41,9 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="9"
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul" />
 
         <Button
             android:id="@+id/button4"
@@ -54,21 +51,19 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:background="#ea4d39"
             android:text="÷"
-            android:textSize="34sp"
-            app:backgroundTint="#ea4d39" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Rojo" />
 
         <Button
             android:id="@+id/button21"
+            style="@style/AppTheme.BotonCalculadora.Azul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="4"
-            android:textSize="34sp" />
+            app:backgroundTint="@null" />
 
         <Button
             android:id="@+id/button22"
@@ -76,10 +71,9 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="5"
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul" />
 
         <Button
             android:id="@+id/button23"
@@ -87,10 +81,9 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="6"
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul"  />
 
         <Button
             android:id="@+id/button24"
@@ -98,21 +91,19 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:background="#ea4d39"
             android:text="x"
-            android:textSize="24sp"
-            app:backgroundTint="#ea4d39" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Rojo"/>
 
         <Button
             android:id="@+id/button25"
+            style="@style/AppTheme.BotonCalculadora.Azul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="1"
-            android:textSize="34sp" />
+            app:backgroundTint="@null" />
 
         <Button
             android:id="@+id/button26"
@@ -120,10 +111,9 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="2"
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul" />
 
         <Button
             android:id="@+id/button27"
@@ -131,10 +121,9 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="3"
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul" />
 
         <Button
             android:id="@+id/button28"
@@ -142,32 +131,29 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:background="#ea4d39"
             android:text="-"
-            android:textSize="34sp"
-            app:backgroundTint="#ea4d39" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Rojo" />
 
         <Button
             android:id="@+id/button29"
+            style="@style/AppTheme.BotonCalculadora.Azul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="."
-            android:textSize="34sp" />
+            app:backgroundTint="@null" />
 
         <Button
             android:id="@+id/button30"
-            android:layout_width="wrap_content"
+            style="@style/AppTheme.BotonCalculadora.Azul"
+            android:layout_width="102dp"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="0"
-            android:textSize="34sp" />
+            app:backgroundTint="@null" />
 
         <Button
             android:id="@+id/button31"
@@ -175,10 +161,9 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:backgroundTint="#00537d"
-            android:background="#00537d"
             android:text="="
-            android:textSize="34sp" />
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Azul" />
 
         <Button
             android:id="@+id/button32"
@@ -186,14 +171,13 @@
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:background="#ea4d39"
-            android:text="÷"
-            android:textSize="34sp"
-            app:backgroundTint="#ea4d39" />
+            android:text="+"
+            app:backgroundTint="@null"
+            style="@style/AppTheme.BotonCalculadora.Rojo"/>
 
         <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="67dp"
+            android:layout_height="83dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1" />
 
